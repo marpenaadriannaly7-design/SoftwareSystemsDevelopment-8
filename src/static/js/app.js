@@ -2,6 +2,13 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
+            <Row className="mb-4">
+                <Col className="text-center">
+                    <h1 style={{ fontSize: '2.5rem'}}>
+                        Adrianna Marpena's To Do List
+                    </h1>
+                </Col>
+            </Row>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
